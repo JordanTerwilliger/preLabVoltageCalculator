@@ -15,7 +15,7 @@ int main(){
     for (size_t i = 0; i < 16; i++) //determine load voltage
     {
         vL = vDC*rS/(rL[i]+rS);
-        cout << "Load Resistor: " << rL[i] << "\nLoad Voltage: " << vL << " volts.\n";
+        cout << "Load Resistor: " << rL[i] << "ohms" << "\nLoad Voltage: " << vL << " volts.\n";
         w = pow(vDC,2)/(4*rS);
     }
     cout << "\nPower: " << w << " watts.\n";
