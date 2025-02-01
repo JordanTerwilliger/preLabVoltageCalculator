@@ -15,7 +15,7 @@ int main(){
     float vL = 0.0;
     float w = 0.0;
     cout << "Set Resistor: " <<  rS << "\n";
-    for (size_t i = 0; i < 18; i++) //determine load voltage
+    for (size_t i = 0; i < 18; i++) //*determine load voltage
     {
         vL = vDC*(rL100000[i]/(rS+rL100000[i]));
         cout << vL << " Ohms";
